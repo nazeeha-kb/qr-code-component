@@ -11,7 +11,7 @@ body{
 
 .component{
     background-color: white;
-    max-width:18em;
+    max-width:21em;
     border-radius:1em;
     padding:12px;
     margin: 6em 1em;
@@ -22,7 +22,7 @@ body{
 
 .content{
     /* padding-block: 10px; */
-    padding: 10px 10px ;
+    padding: 10px 15px ;
 }
 
 .attribution {
