@@ -1,0 +1,52 @@
+body{
+  background-color: hsl(212, 45%, 89%);
+}
+
+/* applied the bg color to body instead of `*` and that solved the issue */
+
+.container{
+    display: flex;
+    justify-content: center;    
+}
+
+.component{
+    background-color: white;
+    max-width:18em;
+    border-radius:1em;
+    padding:12px;
+    margin: 6em 1em;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);;
+    
+}
+
+.content{
+    /* padding-block: 10px; */
+    padding: 10px 10px ;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+  /* max-width:80%; */
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+    /* max-width:80%; */
+}
+
+img{
+    border-radius: 6px;
+    /* overflow: hidden */
+    height: 97%;
+    width: 97%;
+}
